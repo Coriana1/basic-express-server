@@ -10,7 +10,7 @@ describe('validator middleware', () => {
   });
 
   it('should pass the request to the next middleware when name property is present', () => {
-    req.query.name = 'John';
+    req.query.name = 'Coriana';
 
     validator(req, res, next);
 
