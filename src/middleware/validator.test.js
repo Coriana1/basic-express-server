@@ -1,4 +1,4 @@
-const validator = require('../middleware/validator');
+const validator = require('./validator');
 
 describe('validator middleware', () => {
   let req, res, next;
